@@ -1,0 +1,29 @@
+# Docker build files
+Dockerfile
+.dockerignore
+
+# IDE / OS junk
+.DS_Store
+.idea/
+.vscode/
+
+# Git / VCS
+.git/
+.gitignore
+
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Build artifacts / Make
+Makefile
+../zip/
+*.zip
+
+
+# Tests
+tests/
